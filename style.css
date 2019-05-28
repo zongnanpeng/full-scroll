@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "微软雅黑";
+  line-height: 1.6;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: #333333;
+}
+
+section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+
+nav {
+  width: 100%;
+  position: fixed;
+  background-color: #000000;
+  opacity: 0.8;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f4;
+  display: block;
+  padding: 10px 30px;
+}
+
+a:hover {
+  color: skyblue;
+}
+
+#home {
+  background-image: url(https://images.pexels.com/photos/2332611/pexels-photo-2332611.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#about {
+  background-image: url(https://images.pexels.com/photos/2342826/pexels-photo-2342826.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#server {
+  background-image: url(https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+#contact {
+  background-image: url(https://images.pexels.com/photos/2271683/pexels-photo-2271683.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+p {
+  padding: 30px 200px;
+}
