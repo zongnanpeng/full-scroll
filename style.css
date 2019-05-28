@@ -10,8 +10,9 @@ html {
 
 body {
   width: 100%;
-  height: 100vh;
   background-color: #333333;
+  scroll-behavior: smooth;
+  scroll-snap-type: y mandatory;
 }
 
 section {
@@ -21,8 +22,16 @@ section {
   justify-content: center;
   align-items: center;
   color: #ffffff;
+  scroll-snap-align: center;
 }
 
+h1 {
+  font-size: 3em;
+}
+
+p {
+  font-size: 1.5rem;
+}
 nav {
   width: 100%;
   position: fixed;
@@ -50,25 +59,25 @@ a:hover {
 }
 
 #home {
-  background-image: url(https://images.pexels.com/photos/2332611/pexels-photo-2332611.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image: url(https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 #about {
-  background-image: url(https://images.pexels.com/photos/2342826/pexels-photo-2342826.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image: url(https://images.pexels.com/photos/1591060/pexels-photo-1591060.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 #server {
-  background-image: url(https://images.pexels.com/photos/2264753/pexels-photo-2264753.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image: url(https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 #contact {
-  background-image: url(https://images.pexels.com/photos/2271683/pexels-photo-2271683.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+  background-image: url(https://images.pexels.com/photos/270435/pexels-photo-270435.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
